@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-app:
     docker:
-      - image: cimg/node:13.8.0
+      - image: cimg/node:14.15.0
     steps:
       - checkout
       - restore_cache:
@@ -20,7 +20,7 @@ jobs:
 
   test-app:
     docker:
-      - image: cimg/node:13.8.0
+      - image: cimg/node:14.15.0
     steps:
       - checkout
       - restore_cache:
@@ -34,7 +34,7 @@ jobs:
 
   scan-app:
     docker:
-      - image: cimg/node:13.8.0
+      - image: cimg/node:14.15.0
     steps:
       - checkout
       - restore_cache:
@@ -48,7 +48,7 @@ jobs:
 
   check-lint-app:
     docker:
-      - image: cimg/node:13.8.0
+      - image: cimg/node:14.15.0
     steps:
       - checkout
       - restore_cache:
