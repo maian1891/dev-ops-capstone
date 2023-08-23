@@ -1,5 +1,5 @@
 # build stage
-FROM node:13.8.0-alpine as build-stage
+FROM node:18.17.0 as build-stage
 WORKDIR /reactApp
 COPY reactApp .
 RUN npm install
