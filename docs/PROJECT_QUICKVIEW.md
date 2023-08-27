@@ -25,4 +25,7 @@
     <img src="images/eks_kubectl_get_nodes.png" />
     <img src="images/rolling_success.png" />
     
-   
+    3. Screenshot showing that you can access the application after deployment.
+    <img src="images/eks_with_ingress_load_balancer_result.png" />
+    <img src="images/load_balancer.png" />
+    <img src="images/eks_with_ingress.png" />
